@@ -14,8 +14,6 @@ import org.json.JSONObject;
 
 public class MyView extends LinearLayout
 {
-
-
      private void initialize(Context context)
      {
          inflate(context, R.layout.my_view, this);

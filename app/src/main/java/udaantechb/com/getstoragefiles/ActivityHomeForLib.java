@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import udaantechb.com.mylittlelibrary.MyView;
 
-public class ActivityHome extends AppCompatActivity {
+public class ActivityHomeForLib extends AppCompatActivity {
 
     Button btnClickMe;
 
@@ -26,7 +26,7 @@ public class ActivityHome extends AppCompatActivity {
         btnClickMe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ActivityHome.this, "you ClickMe", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ActivityHomeForLib.this, "you ClickMe", Toast.LENGTH_SHORT).show();
             }
         });
     }
