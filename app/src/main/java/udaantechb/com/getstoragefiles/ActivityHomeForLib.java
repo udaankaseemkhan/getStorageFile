@@ -21,13 +21,13 @@ public class ActivityHomeForLib extends AppCompatActivity {
         View v = new MyView(this);
         setContentView(v);
 
-        btnClickMe=(Button)findViewById(udaantechb.com.mylittlelibrary.R.id.btnClickMe);
+       /* btnClickMe=(Button)findViewById(udaantechb.com.mylittlelibrary.R.id.btnClickMe);
 
         btnClickMe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ActivityHomeForLib.this, "you ClickMe", Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
     }
 }
